@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.use(cors({
-    origin: process.env.REACT_URI,
+    origin: 'https://libertyandresponsibility.netlify.app',
 methods: 'PUT,POST,PATCH,DELETE,GET',
 }));
 
